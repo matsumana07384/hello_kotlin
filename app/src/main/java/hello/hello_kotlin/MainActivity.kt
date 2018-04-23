@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val message: TextView = this.findViewById(R.id.text) as TextView
+        val message: TextView = this.findViewById(R.id.helloText)
         message.text = "ハロー ことりん"
     }
 }
